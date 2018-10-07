@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1024px;
+  margin: 10px auto;
+  font-size: 18px;
+}
+
+body > section {
+  margin: 20px;
+}
+
+header {
+  text-align: center;
+
+}
+
+h1 {
+  padding: 0.5em 0;
+  text-decoration: underline;
+}
+
+
+.name-container figure {
+  display: inline-block;
+}
+
+.name-container .personal-photo {
+  border-radius: 100%;
+}
+
+.name-container .name {
+  float: right;
+  margin-top: 65px;
+  margin-left: 30px;
+}
+
+.contacts-container {
+  margin: 20px 0;
+}
+
+.summary {
+  margin: 20px;
+}
+
+section h3,
+p {
+  text-indent: 1.5em;
+}
+
+.code-link {
+  margin: 10px;
+  text-indent: 1.5em;
+}
+
+.skills .skills-list li {
+  display: inline-block;
+  width: 40%;
+}
+
+section ul li {
+  list-style: none;
+  margin: 5px;
+}
+
+section ul li::before {
+  content: '';
+  width: 0.3em;
+  height: 0.3em;
+  background: black;
+  display: inline-block;
+  margin: auto 5px;
+  border-radius: 100%;
+  border: 1px solid black;
+}
